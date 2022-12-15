@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLORIA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.cdnfonts.com/css/budidaya" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/budidaya');
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+               
+                <a href="#" class="logo">
+                    <img src="Gloria_1971.webp" alt=""></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="Inicio.html" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Productos.html" class="nav-link ">Productos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="Blog.html" class="nav-link ">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Noticias</a>
+                    </li>
+
+                </ul>
+
+                    <div class="container-icon">
+                        <div class="container-cart-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="icon-cart">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                            </svg>
+                            <div class="count-products">
+                                <span id="contador-productos">0</span>
+                            </div>
+                        </div>
+
+                        <div class="container-cart-products hidden-cart">
+                            <div class="row-product hidden">
+                                <div class="cart-product">
+                                    <div class="info-cart-product">
+                                        <span class="cantidad-producto-carrito">1 </span>
+                                        <p class="titulo-producto-carrito">Leche</p>
+                                        <span class="precio-producto-carrito">$8</span>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="icon-close">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="cart-total hidden">
+                                <h3>Total:</h3>
+                                <span class="total-pagar">$200</span>
+                            </div>
+                            <p class="cart-empty">El carrito está vacío</p>
+                        </div>
+                    </div>
+            </nav>  
+
+        </div>
+    </header>
+
+
+    <!--ENCABEZADO -->
+
+    <section class="def">
+        <section class="prod">
+            <div class="img-container">
+                <img id="imageBox" src="4.png" alt="">
+            </div>
+            <div class="prod-small-img">
+                <img src="4.png" alt="" onclick="myFuction(this)">
+                <img src="refresco2.png" alt="" onclick="myFuction(this)">
+                <img src="refresco3.png" alt="" onclick="myFuction(this)">
+            </div>
+        </section>
+
+        <section class="dis-sto">
+            <div class="container-items">
+                <div class="item">
+                    <div class="info-product">
+                        <h2>TAMPICO CITRUS<br>  PUNCH</h2>
+                        <h1><del>$ 10.00</del></h1>
+                        <p class="price"><b>$8.90</b></p>
+                        <p>
+                            <b>Presentaciones:</b>
+                            <br>
+                            Galonera 600ml <br>Botella 500ml <br>Botella 1.5l <br><br>
+                            Bebida refrescante elaborada con jugo concentrado de frutas (naranja, mandarina y limón) y enriquecida con vitamina C. Es ideal para jóvenes entre 18 y 25 años que estudian y/o trabajan y a quienes les gusta viajar, experimentar y divertirse con amigos.
+
+
+                        </p>
+                            <br>
+                            <button class="btn cta-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!--SECCIÓN FINAL -->
+
+
+    <footer class="pie">
+
+        <div class="global">
+            <h1 class="hea-dark"> </h1>
+        </div>
+        <div class="header">
+            <div class="social-icons">
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                </li>
+            </div>
+        </div>
+
+        <div class="section">
+            <div>
+                <h2>Sobre Gloria</h2>
+                <a href="#">Nosotros</a>
+                <a href="#">Historia</a>
+                <a href="#">Políticas</a>
+                <a href="#">Contáctanos</a>
+            </div>
+            <div>
+                <h2>Productos</h2>
+                <a href="#">Lácteos</a>
+                <a href="#">Yogures</a>
+                <a href="#">Panetones</a>
+                <a href="#">Bebidas</a>
+                <a href="#">Mermeladas</a>
+                <a href="#">Mixtos</a>
+            </div>
+            <div class="right">
+                <h2><br></h2>
+                <a href="#">Mantequillas</a>
+                <a href="#">Manjares</a>
+                <a href="#">Mezclas</a>
+                <a href="#">Embutidos</a>
+                <a href="#">Quesos</a>
+                <a href="#">Otros</a>
+            </div>
+            <div>
+                <h2>Contáctanos</h2>
+                <a href="#">Noticias</a>
+                <a href="#">Atención al Cliente</a>
+                <a href="#">Gloria te escucha</a>
+            </div>
+
+            <div>
+                <h2>Suscríbete</h2>
+                <form action="">
+                    <input style="color: #fff" type="text" placeholder="Ingresa con tu correo">
+                    <a href="#" class="btn cta-btn">Suscribirse</a>
+                </form>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>&copy Lima-Perú 2022</p>
+            <p>Todos los Derechos Reservados.</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+
+        const selectElement = function (element) {
+            return document.querySelector(element);
+        }
+
+
+        let menuToggle = selectElement('.menu-toggle');
+        let body = selectElement('body');
+
+        menuToggle.addEventListener('click', function () {
+            body.classList.toggle('open');
+        })
+
+    </script>
+
+
+    <script src="index.js"></script>
+
+    <script type="text/javascript">
+        function myFuction(smallImg) {
+            var fullImg = document.getElementById("imageBox");
+            fullImg.src = smallImg.src;
+        }
+
+    </script>
+
+</body>
+
+</html>
